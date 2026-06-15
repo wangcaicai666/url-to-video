@@ -1,12 +1,12 @@
 # url-to-video skill
 
-A complete Claude Code skill skeleton that turns a URL into a short video.
+A complete Claude Code skill that turns a URL into a short video.
 
-This folder is a self-contained skill. The structure below is the recommended
-layout for any skill — copy it as a starting point.
+**This repository is itself the skill** — `SKILL.md` lives at the root. The
+structure below is the recommended layout for any skill.
 
 ```
-url-to-video/
+.
 ├── SKILL.md                  # Required. Entry point with YAML frontmatter.
 ├── README.md                 # Optional. Human-facing docs (this file).
 ├── reference/                # Docs loaded on demand to keep SKILL.md small.
@@ -31,8 +31,8 @@ url-to-video/
 
 ## Installing
 
-Place this folder under one of:
-- `.claude/skills/<name>/` in a project (project-scoped), or
-- `~/.claude/skills/<name>/` (available in every project).
+Clone or copy this repository into one of:
+- `.claude/skills/url-to-video/` in a project (project-scoped), or
+- `~/.claude/skills/url-to-video/` (available in every project).
 
 Claude discovers it automatically via the `name` + `description` in `SKILL.md`.
